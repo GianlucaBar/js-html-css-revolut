@@ -10,14 +10,27 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
+
+.beta:after{
+    content: 'beta';
+    font-size: 10px;
+    color: #EC008E;
+    position: absolute;
+    top: 12px;
+}
 /* HEADER  */
 
 header a{
     color: #A4ABB0;
     text-decoration: none;
 }
+
+header a:hover{
+    color: black;
+}
+
 .container{
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -69,4 +82,44 @@ header a{
 .menu li{
     display: inline-block;
     padding-left: 30px;
+    position: relative;
 }
+
+.btn{
+    padding: 10px 15px;
+    background-color: #EC008E;
+    color: white;
+    border-radius: 20px;
+}
+
+.dropdown{
+    position: absolute;
+    right: -200px;
+    min-width: 300px;
+    display: none;
+    box-shadow: 0px 9px 7px 5px rgba(164,171,176,0.2);
+    border: 1px solid rgba(164,171,176,0.2);
+    padding: 0 20px;
+}
+
+.lang-menu .dropdown{
+    right: -30px;
+}
+
+.dropdown .menu{
+    padding: 10px;
+}
+
+.dropdown .menu li{
+    display: block;
+    padding: 20px 0;
+}
+
+.active{
+    display: block;
+}
+
+.lang-menu i{
+    font-size: 10px;
+}
+
