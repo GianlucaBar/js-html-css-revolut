@@ -1,0 +1,72 @@
+/* common */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/* HEADER  */
+
+header a{
+    color: #A4ABB0;
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* nav sinistro  */
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.left-menu .active{
+    color: black;
+}
+
+.left-menu{
+    list-style-type: none;
+}
+
+.left-menu li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.left-menu a{
+    color: #A4ABB0;
+    text-transform: uppercase;
+}
+
+.left-menu a:hover{
+    color: black;
+}
+
+/* nav destro  */
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding-left: 30px;
+}
